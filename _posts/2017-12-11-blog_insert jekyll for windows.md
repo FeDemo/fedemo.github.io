@@ -8,6 +8,7 @@ header-img: img/post-bg-coffee.jpeg
 catalog: true
 tags:
     - Blog
+    - Jekyll
 ---
 >在本地调试你的博客  
 >官网 [jekyllcn.com](http://jekyllcn.com)
@@ -58,7 +59,9 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
     `> ruby dk.rb install`
 5. 安装Jekyll  
     `> gem install jekyll`
-6. 测试:输入`jekyll -v`查看版本号,是否安装成功
+6. 安装jekyll-paginate  
+    `> gem install jekyll-paginate`
+7. 测试:输入`jekyll -v`查看版本号,是否安装成功
 
 ## 一些Error
 ####  连接超时
