@@ -192,7 +192,6 @@ Markdown具有一系列衍生版本，用于扩展Markdown的功能（如表格�
 
 对,那些表格就是这样画出来的,是不是很棒
 ## Star
-好了,现在就已经完成了整个对语句的拼接了.  
 
 如果觉得这篇教程还有点用，请点播关注，给我的[github仓库](https://github.com/FeDemo/fedemo.github.io) 点个 **star** 吧！
 

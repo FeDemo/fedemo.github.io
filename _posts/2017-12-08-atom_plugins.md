@@ -25,27 +25,24 @@ miku插件:
 [atom-miku](https://github.com/sunqibuhuake/atom-miku)  
 
 ## 插件安装
-### Atom下载
+#### Atom下载
 
 需要使用Atom插件,首先你需要下载一个Atom.
 可以参考一下我的另一篇文章:
-[Atom初体验](https://fedemo.github.io/2017/11/26/Atom%E5%88%9D%E4%BD%93%E9%AA%8C/)
+[Atom初体验](https://fedemo.github.io/2017/11/26/atom_first/)
 
-### 插件安装
-#### 在windows下安装插件
-现在,我们已经安装了Atom了.打开一看,界面还是挺小清新的.
+#### 插件安装(windows)
 
-
-## 汉化插件
+## 插件介绍
+#### 汉化插件
 
 [simplified-chinese-menu](https://github.com/chinakids/atom-simplified-chinese-menu)  
-
-## miku插件
+![](https://fedemo.github.io/posts_img/2017-12-08-atom_plugins/simplified-chinese-menu.png)
+#### miku插件
 
 [atom-miku](https://github.com/sunqibuhuake/atom-miku)  
-
+![](https://fedemo.github.io/posts_img/2017-12-08-atom_plugins/atom_miku.gif)
 ## Star
-好了,现在就已经完成了整个对语句的拼接了.  
 
 如果觉得这篇教程还有点用，请点播关注，给我的[github仓库](https://github.com/FeDemo/fedemo.github.io) 点个 **star** 吧！
 
