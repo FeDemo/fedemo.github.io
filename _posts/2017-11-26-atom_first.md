@@ -55,11 +55,11 @@ Atom会自动识别插件
 
 我们可以github的本地客服端[GitHub Desktop](https://desktop.github.com/)直接打开并下载并打开Atom:    
 
-![Atom](https://fedemo.github.io/posts_img/2017-11-26-atom_first/1.png)  
+![Atom](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-11-26-atom_first/1.png)  
 
 点击这个按钮会自动跳转至官网: [Atom](https://atom.io/) 点击Download下载就好了   
 
-![AtomDown](https://fedemo.github.io/posts_img/2017-11-26-atom_first/2.png)   
+![AtomDown](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-11-26-atom_first/2.png)   
 
 当然如果网速不够也不会翻墙也可选择直接[百度](https://www.baidu.com)
 
@@ -188,13 +188,13 @@ Markdown具有一系列衍生版本，用于扩展Markdown的功能（如表格�
 有一个快捷键需要强调,就是**ctrl+shift+m**,使用这个快捷键可以调出Markdown预览,
 可以一边编写一边查看效果,上图:    
 
-![ctrl+shift+m](https://fedemo.github.io/posts_img/2017-11-26-atom_first/3.png)  
+![ctrl+shift+m](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-11-26-atom_first/3.png)  
 
 对,那些表格就是这样画出来的,是不是很棒
 ## Star
 
 如果觉得这篇教程还有点用，请点播关注，给我的[github仓库](https://github.com/FeDemo/fedemo.github.io) 点个 **star** 吧！
 
-![](https://fedemo.github.io/posts_img/2017-12-08-blog_re0/13.png)
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/13.png)
 
 点上面 **↑** 那个星星

@@ -29,7 +29,7 @@ miku插件:
 
 需要使用Atom插件,首先你需要下载一个Atom.
 可以参考一下我的另一篇文章:
-[Atom初体验](https://fedemo.github.io/2017/11/26/atom_first/)
+[Atom初体验](/2017/11/26/atom_first/)
 
 #### 使用Atom自带的插件安装入口
 

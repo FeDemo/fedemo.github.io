@@ -1,22 +1,22 @@
 # Site settings
-title: Fe Blog
-SEOTitle: Fe的博客 | Fe Blog
-header-img: img/404-bg.jpg
+title: Fe Blog  #你博客的标题
+SEOTitle: Fe的博客 | Fe Blog  #显示在浏览器上搜索的时候显示的标题
+header-img: img/404-bg.jpg #显示在首页的背景图片
 email: 402354031@qq.com
-description: "Every failure is leading towards success."
-keyword: "Fe, Fe Blog, Fe的博客,JAVA"
-url: "http://fedemo.github.io"          # your host, for absolute URL
+description: "Every failure is leading towards success." #网站介绍
+keyword: "Fe, Fe Blog, Fe的博客,JAVA" #关键词
+url: "http://fedemo.top"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/FeDemo/fedemo.github.io.git" # you code repository
 
-# Sidebar settings
+# Sidebar settings侧边栏
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
-# SNS settings
+# SNS settings社交账号
 RSS: false
 # weibo_username:
 zhihu_username:    fedemo
@@ -91,7 +91,7 @@ service-worker: true
 
 
 
-# Friends
+# Friends好友链接
 friends: [
     {
         title: "baidu",
