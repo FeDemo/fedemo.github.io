@@ -94,10 +94,13 @@ service-worker: true
 # Friends好友链接
 friends: [
     {
-        title: "baidu",
-        href: "http://www.baidu.com"
+        title: "Fe",
+        href: "/"
     },{
         title: "BY Blog",
         href: "http://qiubaiying.top/"
+    },{
+        title: "Hux Blog",
+        href: "https://huangxuan.me/"
     }
 ]
