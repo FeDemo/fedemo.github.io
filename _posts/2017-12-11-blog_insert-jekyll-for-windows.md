@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      在Windows上安装Jekyll
-subtitle:   blog_insert-jekyll-for-windows
+subtitle:   blog_insert jekyll for windows
 date:       2017-12-11
 author:     Fe
 header-img: img/post-bg-coffee.jpeg
