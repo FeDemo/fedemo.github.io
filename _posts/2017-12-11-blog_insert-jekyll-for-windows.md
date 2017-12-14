@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      在Windows上安装Jekyll
-subtitle:   blog_insert jekyll for windows
+subtitle:   blog_insert-jekyll-for-windows
 date:       2017-12-11
 author:     Fe
 header-img: img/post-bg-coffee.jpeg
@@ -35,17 +35,17 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
 
 以上是我使用的版本号,可以参考一下    
 下载地址:[点我下载](https://rubyinstaller.org/downloads/archives/)  
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-11-blog_insert jekyll for windows/1.png)
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-11-blog_insert-jekyll-for-windows/1.png)
 
 #### 下载安装
 
 - 从rubyinstaller下载安装包并安装,把该钩的都√上  
 
-    ![rubyinstaller](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-11-blog_insert jekyll for windows/2.png)
+    ![rubyinstaller](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-11-blog_insert-jekyll-for-windows/2.png)
 
 - 把安装的DevKit点开解压,可以放在ruby的同一目录
 
-    ![DevKit](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-11-blog_insert jekyll for windows/3.png)
+    ![DevKit](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-11-blog_insert-jekyll-for-windows/3.png)
 
 #### cmd命令
 
