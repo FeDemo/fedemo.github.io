@@ -53,16 +53,16 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
-
 # 评论系统
-# Disqus settings（https://disqus.com/）
-# disqus_username: fedemo
-
-# 多说 将于2017年6月1日正式关停服务，建议使用 Disqus（http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241）
-# Duoshuo settings
-# duoshuo_username: fedemo
-# Share component is depend on Comment so we can NOT use share only.
-# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# Gitalk
+gitalk:
+  enable: true    #用来做启用判断可以不用
+  clientID: '0bc1a008a3b96904e2ad'    #上面生成的往这里怼
+  clientSecret: 'f8da0b376d327a2ab853a2bb8e4dc513ffee9962'   #同上
+  repo: Blog_comments    #仓库名称
+  owner: FeDemo    #github用户名
+  admin: erbiduo
+  distractionFreeMode: true
 
 
 
