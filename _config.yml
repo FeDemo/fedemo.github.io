@@ -67,7 +67,7 @@ kramdown:
 
 
 
-# Analytics settings
+# Analytics settings 百度统计track_id
 # Baidu Analytics
 ba_track_id: ef224c004e9c327ca58d50ed4501cb99
 
