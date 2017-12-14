@@ -35,7 +35,7 @@ miku插件:
 
 setting → install → 搜索 → 安装install   
 推荐会翻墙有VPN人事使用,我直接下就没成功过 OTZ  
-![](https://fedemo.github.io/posts_img/2017-12-08-atom_plugins/2.png)
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-atom_plugins/1.png)
 
 #### 使用命令行安装(推荐)
 依赖:
@@ -50,7 +50,7 @@ setting → install → 搜索 → 安装install
 - 从github中把项目clone到本地  
 `git clone $url(git资源地址)`   
 git资源地址见下图
-![](https://fedemo.github.io/posts_img/2017-12-08-atom_plugins/1.png)  
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-atom_plugins/2.png)  
 - 进入clone的文件夹  
 `cd atom-asciidoc-preview`
 - 安装插件  
@@ -63,7 +63,7 @@ git资源地址见下图
 
 [simplified-chinese-menu](https://github.com/chinakids/atom-simplified-chinese-menu)  
 大部分的菜单都有汉化,是一款很好用的插件
-![](https://fedemo.github.io/posts_img/2017-12-08-atom_plugins/simplified-chinese-menu.png)
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-atom_plugins/simplified-chinese-menu.png)
 
 #### miku插件
 
@@ -71,7 +71,7 @@ git资源地址见下图
 Miku能从你的代码中得到获得充能！  
 可以让你更效率的撸代码  
 总之是个好东西  
-![](https://fedemo.github.io/posts_img/2017-12-08-atom_plugins/atom_miku.gif)   
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-atom_plugins/atom_miku.gif)   
 
 **可能出现的BUG**   
 - Jquery版本错误
