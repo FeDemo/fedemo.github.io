@@ -7,7 +7,7 @@ author:     yanchengyc
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - git
+    - Git
 ---
 > 转自[yanchengyc](http://blog.csdn.net/yc1022/article/details/56487680)   
 >一个干净的git仓库
