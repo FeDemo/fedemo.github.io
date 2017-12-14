@@ -124,6 +124,6 @@ apm install atom-miku
 
 如果觉得这篇教程还有点用，请点播关注，给我的[github仓库](https://github.com/FeDemo/fedemo.github.io) 点个 **star** 吧！
 
-![](https://fedemo.github.io/posts_img/2017-12-08-blog_re0/13.png)
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/star.png)
 
 点上面 **↑** 那个星星
