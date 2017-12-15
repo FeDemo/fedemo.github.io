@@ -57,12 +57,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #用来做启用判断可以不用
-  clientID: '0bc1a008a3b96904e2ad'    #上面生成的往这里怼
-  clientSecret: 'f8da0b376d327a2ab853a2bb8e4dc513ffee9962'   #同上
-  repo: Blog_comments    #仓库名称
+  clientID: '75ef4c0ecfb2cd85a8f0'    #上面生成的往这里怼
+  clientSecret: 'b51aa6b7351f3b3b7a0940714af8489fddb5f905'   #同上
+  repo: Blog_Gitalk    #仓库名称
   owner: FeDemo    #github用户名
-  admin: erbiduo
-  distractionFreeMode: true
+  admin: FeDemo
 
 
 

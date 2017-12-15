@@ -59,23 +59,7 @@ layout: default
                 post-container">
 
 				{{ content }}
-        <!--Gitalk评论start  -->
-        <!-- 引入Gitalk评论插件  -->
-        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-        <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-        <div id="gitalk-container"></div>
-          <script type="text/javascript">
-            var gitalk = new Gitalk({
-            clientID: '75ef4c0ecfb2cd85a8f0',
-            clientSecret: 'b51aa6b7351f3b3b7a0940714af8489fddb5f905',
-            repo: 'Blog_Gitalk',
-            owner: 'FeDemo',
-            admin: 'FeDemo',
-            });
-            gitalk.render('gitalk-container');
-        </script>
 
-        <!-- Gitalk end -->
 
                 <hr style="visibility: hidden;">
 
@@ -101,7 +85,25 @@ layout: default
                     {% endif %}
                 </ul>
 
+                <!--Gitalk评论start  -->
+                {% if site.gitalk.enable %}
+                  <!-- 引入Gitalk评论插件  -->
+                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                  <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+                  <div id="gitalk-container"></div>
+                    <script type="text/javascript">
+                      var gitalk = new Gitalk({
+                      clientID: '{{site.gitalk.clientID}}',
+                      clientSecret: '{{site.gitalk.clientSecret}}',
+                      repo: '{{site.gitalk.repo}}',
+                      owner: '{{site.gitalk.owner}}',
+                      admin: ['{{site.gitalk.admin}}'],
 
+                      });
+                      gitalk.render('gitalk-container');
+                  </script>
+                {% endif %}
+                <!-- Gitalk end -->
 
 
 
@@ -165,43 +167,7 @@ layout: default
 </article>
 
 
-{% if site.duoshuo_username %}
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    // dynamic User by Hux
-    var _user = '{{site.duoshuo_username}}';
 
-    // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-</script>
-<!-- 多说公共JS代码 end -->
-{% endif %}
-
-
-{% if site.disqus_username %}
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{page.id}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}
 
 
 {% if site.anchorjs %}
