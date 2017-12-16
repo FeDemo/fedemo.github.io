@@ -56,8 +56,8 @@ kramdown:
 # 评论系统
 # Gitalk
 gitalk:
-  enable: true    #用来做启用判断可以不用
-  clientID: '75ef4c0ecfb2cd85a8f0'    #上面生成的往这里怼
+  enable: true    #是否开启Gitalk评论
+  clientID: '75ef4c0ecfb2cd85a8f0'    #生成的clientID
   clientSecret: 'b51aa6b7351f3b3b7a0940714af8489fddb5f905'   #同上
   repo: Blog_Gitalk    #仓库名称
   owner: FeDemo    #github用户名
