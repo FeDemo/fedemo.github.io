@@ -267,8 +267,9 @@
     });
 </script>
 {% endif %}
-<!-- 搜索插件start -->
 
+<!-- 搜索插件search start -->
+{% if site.search %}
 <div class="cb-search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;
       opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
     <input type="text" class="form-control cb-search-content" id="cb-search-content" style="position: fixed; top: 60px" placeholder="文章标题 日期 标签" >
@@ -286,5 +287,5 @@
 
 <script src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>
-
+{% endif %}
 <!-- 搜索插件end -->
