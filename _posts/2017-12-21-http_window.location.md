@@ -17,7 +17,7 @@ tags:
 
 location是一个常用的对象,我们可以通过他获得有关当前 **URL** 的信息   
 
-PS: window.location和document.location互相等价的，可以交换使用
+PS: window.location等价于document.location，可以交换使用
 
 关于他的属性以及一些方法却一直记得不是很熟,在这里做一个简单的笔记,方便以后查看
 
@@ -36,13 +36,13 @@ URL:  [http://127.0.0.1:4000/2017/12/21/http_window.location/?name=fedemo&&id=00
 |hash|从井号 (#) 开始的 URL（锚）|#cn|
 |host|主机名和当前 URL 的端口号|4000|
 |hostname|当前 URL 的主机名|127.0.0.1|
-|href|完整的 URL|127.0.0.1:4000/2017/12/21/http_window.location/?name=fedemo&&id=001#cn|
+|href|完整的 URL|http://127.0.0.1:4000/2017/12/21/http_window.location/?name=fedemo&&id=001#cn|
 |pathname|当前 URL 的路径部分|/2017/12/21/http_window.location/|
 |port|当前 URL 的端口号|4000|
 |protocol|当前 URL 的协议|http|
 |search|从问号 (?) 开始的 URL（查询部分）|?name=fedemo&&id=001|
 
-PS: `hash`和`search`,实际上是截取第一个#(?)之后的字段    
+PS: `hash`和`search`,实质上是截取第一个#(?)之后的字段    
 <br>
 #### Location 对象方法
 
@@ -77,9 +77,14 @@ Location 对象存储在 Window 对象的 Location 属性中，表示那个窗�
 
 除了 URL 属性外，Location 对象的 reload() 方法可以重新装载当前文档，replace() 可以装载一个新文档而无须为它创建一个新的历史记录，也就是说，在浏览器的历史列表中，新文档将替换当前文档。
 
-## Http
+## url
 
-超文本传输协议（HTTP，HyperText Transfer Protocol)是互联网上应用最为广泛的一种网络协议。所有的WWW文件都必须遵守这个标准。设计HTTP最初的目的是为了提供一种发布和接收HTML页面的方法。1960年美国人Ted Nelson构思了一种通过计算机处理文本信息的方法，并称之为超文本（hypertext）,这成为了HTTP超文本传输协议标准架构的发展根基。Ted Nelson组织协调万维网协会（World Wide Web Consortium）和互联网工程工作小组（Internet Engineering Task Force ）共同合作研究，最终发布了一系列的RFC，其中著名的RFC 2616定义了HTTP 1.1。
+url: 统一资源定位符 / Uniform Resource Locator
+
+统一资源定位符是对可以从互联网上得到的资源的位置和访问方法的一种简洁的表示，是互联网上标准资源的地址。互联网上的每个文件都有一个唯一的URL，它包含的信息指出文件的位置以及浏览器应该怎么处理它。[1]   
+
+它最初是由蒂姆·伯纳斯·李发明用来作为万维网的地址。现在它已经被万维网联盟编制为互联网标准RFC1738了。
+
 
 
 
