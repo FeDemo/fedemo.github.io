@@ -22,7 +22,9 @@ PS: window.location等价于document.location，可以交换使用
 关于他的属性以及一些方法却一直记得不是很熟,在这里做一个简单的笔记,方便以后查看
 
 
-## 属性和方法
+## Location
+
+>一个例子
 
 URL:  [http://127.0.0.1:4000/2017/12/21/http_window.location/?name=fedemo&&id=001#cn](/)  
 
