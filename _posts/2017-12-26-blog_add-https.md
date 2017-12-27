@@ -26,7 +26,7 @@ tags:
 
 一个提供DNS,并且提供免费HTTPS服务的CDN提供商.  
 
-这里,记录下我如何使用 **cloudflare** 给我的网站加上S
+本着分享精神,在这里写一个简单的教程,记录下我给我的博客加上HTTPS的过程
 
 ## 一、注册  
 
@@ -65,8 +65,30 @@ tags:
 
 ## 四、重定向HTTP访问到HTTPS
 
+这个时候我们访问[https://fedemo.top](https://fedemo.top)自然走的是HTTPS。但是如果有人访问了[http://fedemo.top](http://fedemo.top)，那要如何跳转到HTTPS的页面呢？CloudFare另一个很棒的功能 **Page Rules** 就派上用场了。我们可以指定我们的域名强制使用HTTPS，并且当访问是HTTP的时候重定向到HTTPS。这样就能保证用户访问我们的页面都是通过HTTPS的了。
 
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-26-blog_add-https/5.png)
 
+## 五、加入HSTS解析
+
+上面说到，我们有可能访问自己的网站是走HTTP->304重定向->HTTPS。这个是浏览器跟服务器进行了一次通信之后才发生的跳转。那有没有可能做到，访问的是HTTP，但是浏览器识别之后自动转成HTTPS访问，而不经过重定向那一层操作呢？有的。通过HSTS的Preload List。
+
+可以参考这篇文章对HSTS进行更深入的了解。简单来说，HSTS能够使我们的网站安全性更上一层楼。
+
+还是CloudFare，它家自有的HSTS功能，开启之后就能很好的满足我们的需要。（真是完美了）还是在Crypto选项下，开启HSTS
+
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-26-blog_add-https/6.png)   
+
+建议都使用默认的选项。
+
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-26-blog_add-https/8.png) 
+然后可以去[HSTS Preload List](https://hstspreload.org/)的网站把我们的域名进行检查并收录（不能是子域名，必须是一级域名），如果没通过会给出修改建议，按照建议修改就行。如果通过了，就会放入审核列表。之后可以时不时回来看看自己的网站被收录了没有。我是等了快一周才被收录。网上的说法普遍是几周内。所以耐心等待收录。一旦被收录就会应用到主流浏览器上，这样你的网站就是更加安全的网站啦。
+
+## 成果
+
+最终:     
+![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-26-blog_add-https/7.png)
+我的网站加上了一个代表安全的绿色的小锁,一本满足
 
 
 
