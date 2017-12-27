@@ -166,6 +166,6 @@ HTTPS和HTTP的区别主要如下：
 
 如果需要将网站从http切换到https到底该如何实现呢？
 
-这里需要将页面中所有的链接，例如js，css，图片等等链接都由http改为https。例如：http://www.baidu.com 改为 https://www.baidu.com
+这里需要将页面中所有的链接，例如js，css，图片等等链接都由http改为https。例如：[http://www.baidu.com](/) 改为 [https://www.baidu.com](/)
 
-BTW，这里虽然将http切换为了https，还是建议保留http。所以我们在切换的时候可以做http和https的兼容，具体实现方式是，去掉页面链接中的http头部，这样可以自动匹配http头和https头。例如：将http://www.baidu.com改为//www.baidu.com。然后当用户从http的入口进入访问页面时，页面就是http，如果用户是从https的入口进入访问页面，页面即使https的。
+BTW，这里虽然将http切换为了https，还是建议保留http。所以我们在切换的时候可以做http和https的兼容，具体实现方式是，去掉页面链接中的http头部，这样可以自动匹配http头和https头。例如：将[http://www.baidu.com](/)改为 [www.baidu.com](/)。然后当用户从http的入口进入访问页面时，页面就是http，如果用户是从https的入口进入访问页面，页面即使https的。
