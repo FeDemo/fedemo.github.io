@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      git-dos命令大全
-subtitle:   git_code
+subtitle:   git_dos-command
 date:       2017-12-29
 author:     Fe
 header-img: img/post-bg-ios9-web.jpg
