@@ -81,6 +81,31 @@ layout: default
                 col-xs-12
                 sidebar-container
             ">
+                <!-- Date(日期归档)  start-->
+                <!-- author: Fe -->
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="{{'/date/' | prepend: site.baseurl }}">My Date</a></h5>
+                    <div class="tags">
+
+                      {% for post in site.posts %}
+                      	{% capture ym %}{{ post.date | date:"%Y%m" }}{% endcapture %}
+                      	{% if yearmonth != ym %}
+                      		{% assign yearmonth = ym %}
+                          <li><a href="/date/#aa{{ ym }}">{{ post.date | date: "%Y年%m月" }}</a></li>
+                      	{% endif %}
+                      {% endfor %}
+                      </ul>
+                        <!-- {% for tag in site.tags %}
+                            {% if tag[1].size > {{site.featured-condition-size}} %}
+                                <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                                    {{ tag[0] }}
+                                </a>
+                            {% endif %}
+                        {% endfor %} -->
+                    </div>
+                </section>
+                <!-- Date end-->
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
@@ -183,7 +208,7 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-                            
+
                         </ul>
                         {% if site.email %}
                             <p>✉️ {{site.email}}</p>
