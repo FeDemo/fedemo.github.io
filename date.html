@@ -10,9 +10,11 @@ header-img: "img/post-bg-coffee.jpeg"
 	{% capture ym %}{{ post.date | date:"%Y%m" }}{% endcapture %}
 	{% if yearmonth != ym %}
 		{% assign yearmonth = ym %}
+
 	    <li{% if forloop.first %} class="active"{% endif %}>
 		  <a href="/date/#aa{{ ym }}" data-toggle="tab">{{ post.date | date: "%Y年%m月" }}</a>
     </li>
+
 	{% endif %}
 
 {% endfor %}
@@ -27,10 +29,13 @@ header-img: "img/post-bg-coffee.jpeg"
 	{% endif %}
 
 	<p>
+		<div class="post-preview">
     <a href="{{ post.url }}" title="{{ post.title }}" >
 	     <time datetime="{{ post.date | date_to_string }}">{{ post.date | date: "%Y-%m-%d" }}</time>
        &nbsp;&nbsp;{{ post.title }}
     </a>
+	</div>
+	<hr>
 	</p>
 
 {% endfor %}
