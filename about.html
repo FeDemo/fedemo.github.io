@@ -77,12 +77,15 @@ header-img: "img/post-bg-rwd.jpg"
             $select.selectedIndex = 1;
             $en.style.display = "block";
             $zh.style.display = "none";
+            $("#zh1").show();
+            $("#en1").hide();
         // zh by default
         }else{
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 0;
             $zh.style.display = "block";
             $en.style.display = "none";
+
         }
     }
 
