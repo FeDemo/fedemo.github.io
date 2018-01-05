@@ -95,7 +95,7 @@ service-worker: true
 friends: [
     {
         title: "Fe",
-        href: "/"
+        href: "https://fedemo.top/"
     },{
         title: "BY Blog",
         href: "http://qiubaiying.top/"
