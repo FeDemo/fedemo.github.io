@@ -5,9 +5,9 @@ header-img: img/post-bg-earth.jpg #显示在首页的背景图片
 email: fedemo@foxmail.com
 description: "Hey，我是Fe，一只JAVA程序猿,这是我的利用 GitHub Pages 与 Jekyll 搭建的个人博客。内有搭建博客的详细教程,欢迎大家来玩。" #网站介绍
 keyword: "Fe,Fe Blog,Fe的博客,JAVA,fedemo" #关键词
-url: "https://fedemo.top"          # your host, for absolute URL
+url:          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/FeDemo/fedemo.github.io.git" # you code repository
+github_repo: "https://github.com/tra0618705/tra0618705.github.io.git" # you code repository
 
 # Sidebar settings侧边栏
 sidebar: true                           # whether or not using Sidebar.
