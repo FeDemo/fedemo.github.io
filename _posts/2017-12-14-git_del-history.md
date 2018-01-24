@@ -23,19 +23,25 @@ tags:
 ***
 
 ```
-
+:: Checkout 新建一个分支
 git checkout --orphan latest_branch
 
+:: Add all the files
 git add -A
 
+::Commit the changes 提交,commit message为提交备注,可替换
 git commit -am "commit message"
 
+::Delete the branch 删除久的主分支
 git branch -D master
 
+::Rename the current branch to master 将新提交的分支更改为主分支
 git branch -m master
 
+::Finally, force update your repository 提交到主分支
 git push -f origin master
 
+::这是注释.可以直接全部复制到cmd中执行
 ```
 
->在项目的目录运行上面的命令,命令结束后按下回车
+>在cmd中执行上面的脚本
