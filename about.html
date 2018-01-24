@@ -1,0 +1,129 @@
+---
+layout: page
+title: "About"
+description: "Hey, this is Fe."
+header-img: "img/post-bg-rwd.jpg"
+---
+
+<!-- Language Selector -->
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)" hidden>
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
+<!-- by Fe 按钮-->
+<h3 id="zh1"  hidden><a class="label label-default" onclick="onLanChange('0')">中文 Chinese </a></h3>
+<h3 id="en1"><a class="label label-default" onclick="onLanChange('1')">英文 English </a></h3>
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <!--copied from markdown -->
+    <blockquote>
+      <p>冰冻三尺 非一日之寒
+      <br/>积土成山 非斯须之作
+      </p>
+    </blockquote>
+
+    <p>Hey，我是<strong>Fe</strong>，一只JAVA程序猿，现在福州工作。</p>
+
+    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的个人博客。我的GitHub  👉 <a href="http://github.com/FeDemo">Github·Fe。</a></p>
+
+    <p>爱生活,爱编程,爱JAVA,也爱BUG。</p>
+
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    <blockquote><p>Yet another JAVA Developer. <br>
+    Yet another Life-long Student.</p></blockquote>
+
+    <p>Hi, I am <strong>Fe</strong>. An JAVA Program the ape and currently working in FuZhou</p>
+
+    <p>This is my personal blog, through making <a href="https://pages.github.com/">GitHub Pages</a> and <a href="http://jekyll.com.cn/">Jekyll</a>. My GitHub  👉 <a href="http://github.com/FeDemo">Github·Fe</a>.</p>
+
+    <p>Love life,Love programming,Love JAVA, Love BUG </p>
+
+</div>
+
+<div class="post-container">
+<!-- 仓鼠start -->
+<div class="visible-md visible-lg">
+<style>
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+</style>
+<object type="application/x-shockwave-flash"
+style="outline:none;"
+data="https://cdn.abowman.com/widgets/hamster/hamster.swf?"
+width="240" height="180"
+id="__wow_video_player__463292481"
+title="Adobe Flash Player">
+<param name="movie" value="https://cdn.abowman.com/widgets/hamster/hamster.swf?">
+<param name="AllowScriptAccess" value="always">
+<param name="wmode" value="opaque">
+</object>
+</div>
+<!-- 仓鼠end -->
+<h5>Talks</h5>
+<ul>
+  <li><a href="https://github.com" target="_blank">github</a></li>
+  <li><a href="http://jekyll.com.cn/" target="_blank">jekyll</a></li>
+  <li><a href="https://pages.github.com/" target="_blank">GitHub Pages</a></li>
+  <li><a href="https://fedemo.github.io/" target="_blank">Fe</a></li>
+  <li><a href="https://tongji.baidu.com/web/24776843/overview/index?siteId=11534941" target="_blank">百度统计</a></li>
+  <li><a href="https://console.bce.baidu.com/bcd/#/bcd/manage/list" target="_blank">域名管理</a></li>
+</ul>
+</div>
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+            $("#zh1").show();
+            $("#en1").hide();
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+
+        }
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+            $("#zh1").hide();
+            $("#en1").show();
+        }else{
+            window.location.hash = "#en"
+            $("#zh1").show();
+            $("#en1").hide();
+        }
+    }
+
+    // init
+    _render();
+</script>
