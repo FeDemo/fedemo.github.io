@@ -14,6 +14,8 @@ sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/avatar_p11179162.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
+# 是否托管在Coding_Pages
+Coding_Pages: true
 
 
 # SNS settings社交账号
@@ -24,7 +26,7 @@ github_username:    fedemo
 # facebook_username:
 # jianshu_username:   57064928f3a8
 twitter_username:   Fedemo10
-coding_username: fedemo
+# coding_username: fedemo
 
 
 
@@ -100,6 +102,9 @@ friends: [
     },{
         title: "interview",
         href: "https://fedemo.github.io/interview/"
+    },{
+        title: "Fe Coding",
+        href: "https://coding.net/u/fedemo/project"
     },{
         title: "BY Blog",
         href: "http://qiubaiying.top/"
