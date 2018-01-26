@@ -12,7 +12,7 @@ tags:
     - Oracle
     - SQL
 ---
->操作字段,||,wm_concat()函数,REPLACE()函数
+>操作字段,`||`,`wm_concat()`函数,`REPLACE()`函数
 
 ## 对表格字段进行合并
 
@@ -79,7 +79,7 @@ sql: `s.student_name||'//'||s.student_id||'//'||s.student_from`
 
 java: `s.student_name+"//"+s.student_id+"//"+s.student_from`
 
-#### 进行行的拼接  wm_concat()函数
+#### 进行行的拼接  `wm_concat()`函数
 
 好了,我们现在把每一列的数据整合在一起了,大功告成,可喜可贺.
 这是,项目经理过来了,表示这样不行(改需求),我要把一整个班的所有学生数据在一行都显示出来.
@@ -114,7 +114,7 @@ sql语句:
 `
 select s.class,wm_concat(s.student_name||'//'||s.student_id||'//'||s.student_from) about from student s group by s.class;`
 
-#### 扩展,REPLACE()函数
+#### 扩展,`REPLACE()`函数
 
 我们很好的又完成了任务,这时又改需求了.
 项目经理说,不能用逗号连接啊,我们要用~来连接每一行.  
