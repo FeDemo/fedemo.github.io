@@ -7,7 +7,7 @@ description: "Hey，我是Fe，一只JAVA程序猿,这是我的利用 GitHub Pag
 keyword: "Fe的博客,fedemo,GitHub,Fe,博客,Blog,JAVA" #关键词
 url: "https://fedemo.top"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/fedemo/fedemo.github.io.git" # you code repository
+github_repo: "fedemo.github.io" # you code repository
 
 # Sidebar settings侧边栏
 sidebar: true                           # whether or not using Sidebar.
@@ -22,7 +22,7 @@ Coding_Pages: true
 RSS: false
 # weibo_username:
 zhihu_username:    fedemo
-github_username:    fedemo
+github_username:    FeDemo
 # facebook_username:
 # jianshu_username:   57064928f3a8
 twitter_username:   Fedemo10
