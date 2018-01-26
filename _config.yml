@@ -15,7 +15,7 @@ sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/avatar_p11179162.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # 是否托管在Coding_Pages
-Coding_Pages: true
+Coding_Pages: false
 
 
 # SNS settings社交账号
