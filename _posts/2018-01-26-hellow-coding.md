@@ -10,7 +10,6 @@ catalog: true
 original: true
 tags:
     - Blog
-    - git
 ---
 >coding初体验   
 >coding和github的page服务  
