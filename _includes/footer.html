@@ -128,6 +128,11 @@
 </footer>
 
 
+<!-- 搜索插件search start -->
+{% if site.search %}
+    {% include plugins/search.html %}
+{% endif %}
+<!-- 搜索插件end -->
 
 <!-- Service Worker -->
 {% if site.service-worker %}
@@ -282,9 +287,3 @@
     });
 </script>
 {% endif %}
-
-<!-- 搜索插件search start -->
-{% if site.search %}
-    {% include plugins/search.html %}
-{% endif %}
-<!-- 搜索插件end -->
