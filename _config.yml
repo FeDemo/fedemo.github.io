@@ -13,7 +13,7 @@ github_repo: "fedemo.github.io" # you code repository
 Coding_Pages: true
 
 #  是否开启百度自动推送JS代码
-baidu_js_push: true
+baidu_js_push: false
 
 # Sidebar settings侧边栏
 sidebar: true                           # whether or not using Sidebar.
