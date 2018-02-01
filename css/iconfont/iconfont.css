@@ -14,19 +14,27 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-1x{
+  font-size: 33px;
+}
+.icon-2x{
+  font-size: 40px;
+}
+.icon-3x{
+  font-size: 45px;
+}
+.icon-rss:before { content: "\e776"; }
 
-.icon-rss:before { content: "\e776"; font-size: 33px;}
+.icon-facebook3:before { content: "\e6e1";}
 
-.icon-facebook3:before { content: "\e6e1"; font-size: 33px;}
+.icon-tuitetwitter43:before { content: "\e6ee";}
 
-.icon-tuitetwitter43:before { content: "\e6ee"; font-size: 33px;}
-
-.icon-weibo:before { content: "\e62d"; font-size: 33px;}
+.icon-weibo:before { content: "\e62d";}
 
 .icon-email:before { content: "\e60b";}
 
-.icon-zhihu:before { content: "\e69a"; font-size: 33px;}
+.icon-zhihu:before { content: "\e69a";}
 
-.icon-CN_codingnet:before { content: "\e650"; font-size: 45px;}
+.icon-CN_codingnet:before { content: "\e650";}
 
-.icon-GitHub:before { content: "\ea0a"; font-size: 33px;}
+.icon-GitHub:before { content: "\ea0a"; }
