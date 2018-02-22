@@ -3,7 +3,12 @@ layout: page
 description: "Surrender! Or more combat-worthy than enemy!"
 head_padding: "55px"
 ---
-
+<div>
+  <a id="cb-search-btn" style="text-decoration:none;" href="{{ site.url }}#">
+    <i  class="iconfont icon-icon-chaxun icon-1x" ></i>&nbsp;
+    搜索,让世界更美好
+  </a>
+</div>
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
