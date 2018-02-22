@@ -10,6 +10,8 @@ catalog: true
 original: true
 tags:
     - Blog
+    - 二维码
+    - Java
 ---
 >定制自定义二维码   
 >基于zxing的二维码生成笔记  
@@ -19,7 +21,8 @@ tags:
 ## 前言
 
 随着微信和支付宝的流行,二维码也渐渐的进入了人们的生活中了.    
-这里,就google的zxing做一个简单的demo,github项目地址[zxing_demo](https://github.com/FeDemo/zxing_demo)
+这里,就google的zxing做一个简单的demo   
+github项目地址[zxing_demo](https://github.com/FeDemo/zxing_demo)
 
 ## 引入jar包
 
