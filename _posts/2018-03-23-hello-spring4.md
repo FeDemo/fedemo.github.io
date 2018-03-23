@@ -44,4 +44,4 @@ spring3.X与jdk1.8不兼容,那么解决的方法就很明显了
 
 spring jar包下载地址:   
 
- [https://repo.spring.io/webapp/#/artifacts/browse/tree/General/libs-milestone](https://repo.spring.io/webapp/#/artifacts/browse/tree/General/libs-milestone)
+ [https://repo.spring.io/webapp/#/artifacts/browse/tree/General/libs-release-local/org/springframework/spring/4.1.0.RELEASE](https://repo.spring.io/webapp/#/artifacts/browse/tree/General/libs-release-local/org/springframework/spring/4.1.0.RELEASE)
