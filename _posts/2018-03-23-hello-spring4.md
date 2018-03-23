@@ -9,7 +9,8 @@ keywords_post:  "spring4,spring3.X与jdk1.8不兼容,spring,Context initializati
 catalog: true
 original: true
 tags:
-    - 前端
+    - spring
+    - java
 ---
 >参考:[https://www.infoq.com/articles/spring-4-java-8](https://www.infoq.com/articles/spring-4-java-8)
 
