@@ -7,7 +7,7 @@ description: "Hey，我是Fe，一只JAVA程序猿,这是我的利用 GitHub Pag
 keyword: "Fe的博客,fedemo,GitHub,Fe,博客,Blog,JAVA" #关键词
 url: "https://fedemo.top"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "fedemo.github.io" # you code repository
+github_repo: "blog" # you code repository
 
 # 是否托管在Coding_Pages
 Coding_Pages: true
