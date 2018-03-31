@@ -2,7 +2,7 @@
 layout:     post
 title:      jQuery笔记--选择器
 subtitle:   jQuery selectors
-date:       2018-04-01
+date:       2018-03-31
 author:     Fe
 header-img: img/post-bg-2015.jpg
 keywords_post:  "jquery,jquery选择器,jquery对象和dom对象,jquery对象,dom对象,前端,$,标签,元素"
