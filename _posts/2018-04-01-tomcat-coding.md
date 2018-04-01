@@ -2,7 +2,7 @@
 layout:     post
 title:      tomcat笔记,编码问题
 subtitle:   tomcat coding
-date:       2018-03-31
+date:       2018-04-01
 author:     Fe
 header-img: img/home-bg-o.jpg
 keywords_post:  "tomcat,tomcat默认编码,修改tomcat默认编码,javaweb,javaweb项目乱码"

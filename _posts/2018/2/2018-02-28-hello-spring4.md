@@ -2,7 +2,7 @@
 layout:     post
 title:      spring笔记--spring3.X与jdk1.8不兼容
 subtitle:   hello spring4
-date:       2018-03-23
+date:       2018-02-28
 author:     Fe
 header-img: img/post-bg-desk.jpg
 keywords_post:  "spring4,spring3.X与jdk1.8不兼容,spring,Context initialization failed,java.lang.IllegalArgumentException"

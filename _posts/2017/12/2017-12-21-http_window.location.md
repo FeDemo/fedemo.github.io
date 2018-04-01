@@ -11,6 +11,7 @@ original: true
 tags:
     - Http
     - JS
+    - 前端
 ---
 >参考:[W3C](http://www.w3school.com.cn),[hebedich](http://www.jb51.net/article/57407.htm)  
 >window.location对象笔记
