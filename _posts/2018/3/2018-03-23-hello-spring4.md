@@ -10,7 +10,7 @@ catalog: true
 original: true
 tags:
     - spring
-    - java
+    - Java
 ---
 >参考:[https://www.infoq.com/articles/spring-4-java-8](https://www.infoq.com/articles/spring-4-java-8)
 
