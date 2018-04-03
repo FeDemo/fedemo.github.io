@@ -6,25 +6,26 @@ description: "Hey, this is Fe."
 header-img: "img/post-bg-rwd.jpg"
 head_padding: "55px"
 ---
-
-<!-- Language Selector -->
-<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)" hidden>
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英文 English </option>
-</select>
 <!-- by Fe 按钮-->
-<h3 id="zh1"  hidden><a class="label label-default" onclick="onLanChange('0')">中文 Chinese </a></h3>
-<h3 id="en1"><a class="label label-default" onclick="onLanChange('1')">英文 English </a></h3>
-<!-- Chinese Version -->
+<h3 name="en"  hidden><a class="label label-default" onclick="onLanChange('0')">中文 Chinese </a></h3>
+<h3 name="zh"><a class="label label-default" onclick="onLanChange('1')">英文 English </a></h3>
 <div class="zh post-container">
-
     <!--copied from markdown -->
-    <blockquote>
+    <blockquote name="zh">
       <p>冰冻三尺 非一日之寒
-      <br/>积土成山 非斯须之作
-      </p>
+      <br/>积土成山 非斯须之作</p>
     </blockquote>
-
+    <blockquote name="en" hidden>
+      <p>Yet another JAVA Developer.
+      <br>Yet another Life-long Student.</p>
+    </blockquote>
+</div>
+<!-- 小恐龙 -->
+<div class="visible-md visible-lg">
+  {% include plugins/chrome-t-rex-game-master/index.html %}
+</div>
+<!-- Chinese Version -->
+<div class="zh post-container" name="zh">
     <p>Hey，我是<strong>Fe</strong>，一只JAVA程序猿，现在福州工作。</p>
 
     <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的个人博客。我的GitHub  👉 <a href="http://github.com/FeDemo">Github·Fe。</a></p>
@@ -34,10 +35,7 @@ head_padding: "55px"
 </div>
 
 <!-- English Version -->
-<div class="en post-container">
-    <blockquote><p>Yet another JAVA Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
-
+<div class="en post-container" name="en" hidden>
     <p>Hi, I am <strong>Fe</strong>. An JAVA Program the ape and currently working in FuZhou</p>
 
     <p>This is my personal blog, through making <a href="https://pages.github.com/">GitHub Pages</a> and <a href="http://jekyll.com.cn/">Jekyll</a>. My GitHub  👉 <a href="http://github.com/FeDemo">Github·Fe</a>.</p>
@@ -47,8 +45,10 @@ head_padding: "55px"
 </div>
 
 <div class="post-container">
+
+<!-- <iframe src="{{ "/plugins/chrome-t-rex-game-master" | prepend: site.baseurl }}" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> -->
 <!-- 仓鼠start -->
-<div class="visible-md visible-lg">
+<!-- <div class="visible-md visible-lg">
 <style>
 ul, menu, dir {
 display: block;
@@ -70,7 +70,7 @@ title="Adobe Flash Player">
 <param name="AllowScriptAccess" value="always">
 <param name="wmode" value="opaque">
 </object>
-</div>
+</div> -->
 <!-- 仓鼠end -->
 <h5>Talks</h5>
 <ul>
@@ -84,45 +84,14 @@ title="Adobe Flash Player">
 </div>
 <!-- Handle Language Change -->
 <script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-            $("#zh1").show();
-            $("#en1").hide();
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-
-        }
-    }
-
     // handle select change
     function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-            $("#zh1").hide();
-            $("#en1").show();
+        if(index == 1){
+            $("[name='zh']").hide();
+            $("[name='en']").show();
         }else{
-            window.location.hash = "#en"
-            $("#zh1").show();
-            $("#en1").hide();
+            $("[name='en']").hide()
+            $("[name='zh']").show();
         }
     }
 
