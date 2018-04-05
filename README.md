@@ -17,10 +17,10 @@
 
 这是电脑版
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/1.png)  
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/1.png)  
 这是手机版  
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/2.png)  
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/2.png)  
 
 ## 关于github
 
@@ -28,7 +28,7 @@
 
 我们需要搭建的博客是搭在github上的,那么,这张图就不得不放出来了   
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/3.png)  
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/3.png)  
 
 对,全球最大的同性交友平台 **github** ,你值得拥有  
 
@@ -38,18 +38,18 @@
 
 接着我们需要先建一个github账号,细节略过
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/4.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/4.png)
 <br>
 ## hello world
 #### Blog项目
 <br>
 >接着,我们需要创建一个项目  
 
-  ![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/5.png)
+  ![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/5.png)
 
   点击new,创建一个项目
 
-  ![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/6.png)      
+  ![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/6.png)      
 
 >输入项目名称  
 
@@ -63,22 +63,22 @@
   然后你会在你的首页发现你刚刚创建的项目
   点击 **setting** 设置  
 
-  ![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/7.png)  
+  ![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/7.png)  
 
   往下拉,找到 **Github Pages** ,修改 **Source** 为 **master branch** ,声明需要一个GithubPages,那么github就会知道你这个项目有一个GithubPages.
 
-  ![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/8.png)
+  ![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/8.png)
 <br>
 #### 编写我们的首页
 > 创建index.html
 
 现在,我们的项目已经建好了,我们需要往里面写东西了
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/9.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/9.png)
 
 点击 **Creat new file** 创建一个文件,命名为 **index.html** ,这是github pages默认的入口界面.
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/10.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/10.png)
 
 >html代码:  
 
@@ -99,14 +99,14 @@ hellow world
 
 然后 **Commit new file** 提交
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/11.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/11.png)
 
 > 查看我们的第一个页面
 
 确认提交后,我们的 **Github Pages** 就完成了
 可以在浏览器上输入` https://username.github.io/ ` (替换成你的用户名)来访问你的网页
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/12.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/12.png)
 
 #### 目前你可以做什么
 <a href="https://help.github.com/articles/what-is-github-pages/" target="view_window">Github Pages 官方说明</a>
@@ -137,8 +137,8 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
 
 #### 使用Jekyll模板
 这里推荐一个Jekyll模板的网站<a href="http://jekyllthemes.org/" target="view_window">jekyllthemes.org</a>
-当然,如果觉得我现在用的模板比较好看也可以直接**fork**我的这个<a href="https://github.com/FeDemo/fedemo.github.io" target="view_window">项目</a>,然后点击**setting**修改项目名称为自己的名字(前面的demo可以删了).  
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/13.png)
+当然,如果觉得我现在用的模板比较好看也可以直接**fork**我的这个<a href="https://github.com/FeDemo/blog/" target="view_window">项目</a>,然后点击**setting**修改项目名称为自己的名字(前面的demo可以删了).  
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/13.png)
 
 ## 一些需要修改的内容
 
@@ -222,7 +222,7 @@ github地址: <a href="https://github.com/gitalk/gitalk" target="view_window">ht
 更加详细的介绍可以看下官方的 <a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md" target="view_window">中文文档</a>
 和这篇<a href="http://qiubaiying.top/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/" target="view_window">文章</a>
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/19.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/19.png)
 
 注册之后会生成**clientID**和**clientSecret**,将其填入下面的配置文件就可以了  
 
@@ -252,7 +252,7 @@ ba_track_id: ef224c004e9c327ca58d50ed4501cb99  #统计账号id(不要用我的`b
 # ga_domain: auto
 ```
 我用的是百度的统计网站,大概是这样  
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/14.png)    
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/14.png)    
 
 如果觉得不需要的话,注释掉就好了.最后重要的事说3遍,**不要用我的ba_track_id!**
 <br>
@@ -264,7 +264,7 @@ featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 ```
 这个就是设置标签的,上图  
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/18.png)   
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/18.png)   
 如果是刚开始建站,没有几篇文章的话讲标签数改为0就好了  
 
 <br>
@@ -299,10 +299,10 @@ friends: [
 > 创建文件   
 
 点击create new file创建文件
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/15.png)  
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/15.png)  
 
 可以在github上直接编辑
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/16.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/16.png)
 
 > 文章的格式
 
@@ -325,14 +325,15 @@ friends: [
   date:       2017-12-08            #发表时间
   author:     Fe                    #作者
   header-img: img/post-bg-rwd.jpg   #背景图片
-  catalog: true                     #不要管他       
+  catalog: true                     #导航目录,不要管他
+  original: true                    #是否原创申明
   tags:                             #标签,可以有多个
       - Blog
       - demo
   ---
   ```
 按格式创建文章后，提交保存。进入你的博客主页，新的文章将会出现在你的主页上.  
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/17.png)  
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/17.png)  
 是不是有点小兴奋
 
 ## 绑定域名
@@ -346,11 +347,11 @@ friends: [
 > 买买买
 
 当然是充钱啊  
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/21.png)  
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/21.png)  
 
 我的话是在百度云买的域名,我的fedemo.top首年只要一块钱
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/20.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/20.png)
 
 具体购买流程就不细说了  
 ps:如果对域名这块不是很熟的可以尝试下阿里云,客户小哥贼热情.  
@@ -362,11 +363,11 @@ ps:如果对域名这块不是很熟的可以尝试下阿里云,客户小哥贼�
 
 这里我以百度云为例,在购买域名后.通过`域名服务 / 域名管理 / 域名解析 `进入域名解析绑定我们的网站
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/22.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/22.png)
 
 >添加解析
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/2017-12-08-blog_re0/23.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2017-12-08-blog_re0/23.png)
 >主机记录  
 
 主机记录即域名前缀，常用如下：
@@ -412,8 +413,8 @@ ps:如果对域名这块不是很熟的可以尝试下阿里云,客户小哥贼�
 
 
 ## Star
-如果觉得这篇教程还有点用，请点播关注，给我的<a href="https://github.com/FeDemo/fedemo.github.io" target="view_window">github仓库</a> 点个 **star** 吧！
+如果觉得这篇教程还有点用，请点播关注，给我的<a href="https://github.com/FeDemo/blog/" target="view_window">github仓库</a> 点个 **star** 吧！
 
-![](https://raw.githubusercontent.com/FeDemo/posts_img/master/star.png)
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/star.png)
 
 点上面 **↑** 那个星星
