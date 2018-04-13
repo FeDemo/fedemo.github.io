@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-2015.jpg
 keywords_post:  "jquery,jquery选择器,jquery对象和dom对象,jquery对象,dom对象,前端,$,标签,元素"
 catalog: true
-original: true
 tags:
     - jquery
     - 前端

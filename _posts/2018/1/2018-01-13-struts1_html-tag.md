@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-p64476688.jpg
 keywords_post:  "struts1,html:标签"
 catalog: true
-original: true
 tags:
     - Struts1
     - Javaee

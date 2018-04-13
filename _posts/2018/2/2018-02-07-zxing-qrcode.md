@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-hacker.jpg
 keywords_post:  "zxing,二维码,将BufferedImage对象在前端显示,定制二维码"
 catalog: true
-original: true
 tags:
     - Blog
     - 二维码

@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-desk.jpg
 keywords_post:  "图标库,阿里巴巴矢量图标库,阿里妈妈矢量图标,iconfont,Glyphicons"
 catalog: true
-original: true
 tags:
     - 前端
 ---

@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-miku1.jpg
 keywords_post:  "https,http"
 catalog: true
-original: false
 tags:
     - Http
     - Https

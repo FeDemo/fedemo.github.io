@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-ios9-web.jpg
 keywords_post:  "git,dos命令"
 catalog: true
-original: true
 tags:
     - Git
 ---

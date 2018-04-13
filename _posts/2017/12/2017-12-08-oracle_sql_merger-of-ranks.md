@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-sql.jpg
 keywords_post:  "Oracle,行列的合并"
 catalog: true
-original: true
 tags:
     - Oracle
     - SQL

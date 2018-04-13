@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-android.jpg
 keywords_post:  "Atom,插件"
 catalog: true
-original: true
 tags:
     - Atom
 ---

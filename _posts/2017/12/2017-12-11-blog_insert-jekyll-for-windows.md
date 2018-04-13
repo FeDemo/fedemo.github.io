@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-coffee.jpeg
 keywords_post:  "Jekyll,Windows"
 catalog: true
-original: true
 tags:
     - Blog
     - Jekyll

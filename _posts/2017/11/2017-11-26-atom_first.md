@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-github-cup.jpg
 keywords_post:  "atom"
 catalog: true
-original: true
 tags:
     - Atom
 ---

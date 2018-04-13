@@ -8,6 +8,7 @@ keyword: "Fe的博客,fedemo,GitHub,Fe,博客,Blog,JAVA" #关键词
 url: "https://fedemo.top"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "blog" # you code repository
+author: Fe
 
 # 是否托管在Coding_Pages
 Coding_Pages: true

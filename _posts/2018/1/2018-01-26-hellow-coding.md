@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-coding.png
 keywords_post:  "coding,github,coding-page,github-pages,解决github-pages无法被百度抓取的问题"
 catalog: true
-original: true
 tags:
     - Blog
 ---
@@ -46,7 +45,7 @@ tags:
 
 可以简单的认为是一家国内的github,同样提供git仓库和page服务.与github不同的是,coding没有对百度爬虫进行屏蔽.这样意味着我们可以使用coding搭建我们的镜像网站,然后让百度去爬我们搭建在coding上的文章,从而解决我们的问题   
 
-![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2018-01-26-hellow-coding/5.png) 
+![](https://raw.githubusercontent.com/FeDemo/img_gitalk/master/2018-01-26-hellow-coding/5.png)
 
 先让我们看看coding和github的区别   
 

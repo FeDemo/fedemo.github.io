@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-coffee.jpeg
 keywords_post:  "Oracle,SQL优化,共享SQL语句"
 catalog: true
-original: true
 tags:
     - Oracle
 ---

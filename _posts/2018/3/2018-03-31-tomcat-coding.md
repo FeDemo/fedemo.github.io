@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/home-bg-o.jpg
 keywords_post:  "tomcat,tomcat默认编码,修改tomcat默认编码,javaweb,javaweb项目乱码"
 catalog: true
-original: true
 tags:
     - tomcat
     - Java

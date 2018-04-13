@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-desk.jpg
 keywords_post:  "spring4,spring3.X与jdk1.8不兼容,spring,Context initialization failed,java.lang.IllegalArgumentException"
 catalog: true
-original: true
 tags:
     - spring
     - Java

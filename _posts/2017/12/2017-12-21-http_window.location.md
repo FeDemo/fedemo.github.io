@@ -7,7 +7,6 @@ author:     Fe
 header-img: img/post-bg-ios9-web.jpg
 keywords_post:  "location"
 catalog: true
-original: true
 tags:
     - Http
     - JS
