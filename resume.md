@@ -36,11 +36,11 @@ avatar: /img/avatar_p11179162.jpg
 
 ### 丽水质监局智慧监管系统
 
->关键词： Oracle、ssm、radis、UEditor、echarts   
+>关键词： Oracle、struts、radis、UEditor、echarts   
 
 >项目描述   
 
-项目使用ssm框架搭建的特种设备行业信息化平台   
+项目使用ssh框架搭建的特种设备行业信息化平台   
 主要分为监察、检验、使用单位、维保单位平台,同时包括门户首页和微信公众号   
 
 >主要负责
