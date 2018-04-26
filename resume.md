@@ -73,7 +73,7 @@ avatar: /img/avatar_p11179162.jpg
 
 ### 内部办公管理系统
 
->关键词： Mysql、Tomcat、ssh、EasyUI   
+>关键词： Mysql、Tomcat、ssm、EasyUI   
 
 >项目描述：   
 
