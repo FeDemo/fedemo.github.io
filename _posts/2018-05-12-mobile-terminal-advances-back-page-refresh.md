@@ -4,7 +4,7 @@ title:      移动端点击返回键，页面不刷新解决方案 (转)
 subtitle:   mobile refresh
 date:       2018-05-12
 author:     老夫风清扬
-header-img: img\post-bg-android.jpg
+header-img: img/post-bg-android.jpg
 keywords_post:  "移动端点击返回键，页面不刷新解决方案,前端,移动端"
 catalog: true
 tags:
