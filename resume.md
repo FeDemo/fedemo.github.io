@@ -5,7 +5,7 @@ avatar: /img/avatar_p11179162.jpg
 ---
 # 联系方式
 
-- 手机：17750599190
+- 手机：**
 - Email：zyh@fedemo.top
 - QQ号：402354031
 
@@ -14,7 +14,7 @@ avatar: /img/avatar_p11179162.jpg
 # 个人信息
 
  - 郑有瀚/男/1993
- - 本科/华侨大学厦门工学院
+ - 本科/**
  - 工作年限：2年
  - 技术博客：[https://fedemo.top](https://fedemo.top)
  - Github：[https://github.com/fedemo](https://github.com/fedemo)
@@ -26,7 +26,7 @@ avatar: /img/avatar_p11179162.jpg
 
 # 工作经历  
 
-## 福州开发区创达电子有限公司 （ 2017年10月 ~ 2018年4月 ）
+## ** （ 2017年10月 ~ 2018年4月 ）
 
 >岗位职责  
 
@@ -34,7 +34,7 @@ avatar: /img/avatar_p11179162.jpg
 2. 负责所在软件项目的相关技术文件编制及审定工作；
 3. 负责所在项目的软件的二次开发技术服务工作
 
-### 丽水质监局智慧监管系统
+### **
 
 >关键词： Oracle、struts、radis、UEditor、echarts   
 
@@ -53,9 +53,9 @@ avatar: /img/avatar_p11179162.jpg
 6. 按要求提供 **json** 格式的接口给移动端使用
 7. 负责项目各个模块的部分字段的调整以及功能添加   
 
-## 厦门广播电视数字工程有限公司 （ 2016年6月 ~ 2017年9月 ）
+## ** （ 2016年6月 ~ 2017年9月 ）
 
-### 宜家广电工单系统
+### **
 
 >关键词： Mysql、Tomcat、ssh、EasyUI   
 
@@ -71,7 +71,7 @@ avatar: /img/avatar_p11179162.jpg
 3. 按要求提供 **json** 格式的接口给移动端使用
 4. 日常的BUG维护、新功能的添加、与客户进行对接交流、系统的部署
 
-### 内部办公管理系统
+### **
 
 >关键词： Mysql、Tomcat、ssm、EasyUI   
 
