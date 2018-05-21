@@ -94,35 +94,18 @@ jquery对象其实是一个javascript的数组，这个数组对象包含125个�
 
 >jquery对象和dom对象的转换  
 
-```
+```javascript
 var jq=$("#yourId");//jquery对象
 var dom=document.getElementById("yourId");//dom对象
 ```
 `jq[0]`就是`HtmlElement`元素,和`dom`是等价的,也就是
-```
+```javascript
 var jq=$("#yourId");//jquery对象
 var dom=jq[0];//dom对象
 ```
 同时
-```
+```javascript
 var dom=document.getElementById("yourId");//dom对象
 var jq=$(dom);//jquery对象
 ```
 将dom对象包一层`$()`后,就成了`jquery`对象  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br>

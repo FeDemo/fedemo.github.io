@@ -36,7 +36,7 @@ jar包下载地址: [点我下载](https://github.com/FeDemo/zxing_demo/blob/mas
 
 >google提供的matrixToImageWriter类   
 
-```
+```java
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -105,7 +105,7 @@ public class MatrixToImageWriter {
 
 ## 封装的QRCodeFactory
 
-```
+```java
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -273,7 +273,7 @@ public class QRCodeFactory {
 ## 生成本地图片
 
 
-```
+```java
 public static void main(String[] args) {
     String content="https://fedemo.top";
   String logUri="D:\\favicon.ico";
@@ -294,7 +294,7 @@ public static void main(String[] args) {
 ## 将img流在前端显示
 
 
-```
+```java
 /**
 * 获得二维码
 * @param mapping
@@ -320,7 +320,7 @@ public void img(final ActionMapping mapping,
 ```
 >img图片
 
-```
+```html
     <img src="code.do?method=img">
 ```
 

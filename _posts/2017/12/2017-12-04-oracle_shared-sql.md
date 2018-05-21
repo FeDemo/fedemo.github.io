@@ -44,7 +44,7 @@ Server Process 就会拿着chain号码和HASH号码,到Library cache上找到对
 当前被执行的语句和共享池中的语句必须完全相同.例如:  
 `SELECT * FROM EMP;`  
 这条SQL语句和下列的每一条都不相同  
-```
+```sql
 SELECT * from EMP;  
 Select * From Emp;    
 SELECT * FROM EMP;
@@ -77,12 +77,12 @@ SQL语句共享中缓存的key是sql语句转换后的*ASCII码*
 
 第一组的两个SQL语句是相同的(可以共享),而第二组中的两个语句是不同的(即使在运行时,赋于不同的绑定变量相同的值)
 
-```
+```sql
 a.
 select pin , name from people where pin = :blk1.pin;
 select pin , name from people where pin = :blk1.pin;
 ```  
-```
+```sql
 b.
 select pin , name from people where pin = :blk1.ot_ind;
 select pin , name from people where pin = :blk1.ov_ind;

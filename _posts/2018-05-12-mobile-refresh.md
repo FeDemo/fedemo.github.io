@@ -23,7 +23,7 @@ tags:
 - 第二种则是在微信、uc这类的浏览器出现，这是因为浏览器保存了DOM和js的状态，相当于保存了整个页面，这种特性称作 “往返缓存”（back-forward cache，或bfcache）。   
 
 对于这种情况可以用“pageshow”事件来解决，“pageshow”事件表示浏览器展示文档的时候触发，并且是在“onload”事件之后触发。如果浏览器是存在往返缓存机制的话，那么onload事件就只会触发一次，而“pageshow”事件则每次都会触发。这里需要注意“pageshow”事件必须绑定在window这个对象中，如下代码：
-```
+```javascript
 window.addEventListener('pageshow', function(event) {
     //event.persisted属性为true时，表示当前文档是从往返缓存中获取
     if(event.persisted) location.reload();  

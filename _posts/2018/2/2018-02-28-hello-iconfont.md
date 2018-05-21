@@ -67,13 +67,13 @@ font-class是unicode使用方式的一种变种，主要是解决unicode书写�
 
 >第一步：引入项目下面生成的fontclass代码：
 
-```
+```html
 <link rel="stylesheet" type="text/css" href="./iconfont.css">
 ```
 
 >第二步：挑选相应图标并获取类名，应用于页面：  
 
-```
+```html
 <i class="iconfont icon-xxx"></i>
 ```
 
@@ -81,7 +81,7 @@ font-class是unicode使用方式的一种变种，主要是解决unicode书写�
 
 ## 使用效果  
 
-```
+```html
 <i class="icon iconfont icon-rss"></i>
 <i class="icon iconfont icon-facebook3"></i>
 <i class="icon iconfont icon-tuitetwitter43"></i>

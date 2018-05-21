@@ -23,7 +23,7 @@ tomcat8以后默认编码格式是`utf-8`
 ## 修改tomcat配置文件
 
 在`%tomcat%\conf\server.xml`中找到
-```
+```xml
 <Connector port="8080" protocol="HTTP/1.1"
            connectionTimeout="20000"
            redirectPort="8443" />
@@ -31,7 +31,7 @@ tomcat8以后默认编码格式是`utf-8`
 
 这一段配置标签,添加`URIEncoding="utf-8"`,设置默认编码为`UTF-8`  
 
-```
+```xml
 <Connector port="8080" protocol="HTTP/1.1"
            connectionTimeout="20000"
            redirectPort="8443" URIEncoding="utf-8"/>

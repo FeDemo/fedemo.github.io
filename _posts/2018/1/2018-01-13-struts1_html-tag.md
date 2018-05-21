@@ -25,7 +25,7 @@ tags:
 
 >JSP  
 
-```
+```html
 <html:form action="demoAction.do?method=save" method="post"
     target="actionFrame" styleId="dataForm">
 </html:form>
@@ -33,7 +33,7 @@ tags:
 
 >html
 
-```
+```html
 <form name="demoActionForm" id="dataForm" method="post"
     action="/demo/demoAction.do?method=save" target="actionFrame">
 </form>
@@ -48,13 +48,13 @@ tags:
 ## html:hidden
 >JSP
 
-```
+```html
 <html:hidden property="username"/>
 ```
 
 >html
 
-```
+```html
 <input type="hidden" name="username" value="">
 ```
 
@@ -67,12 +67,12 @@ tags:
 ## html:text
 >JSP
 
-```
+```html
 <html:text property="username" style="demoStyle"></html:text>
 ```
 >html
 
-```
+```html
 <input type="text" name="username" value="" style="demoStyle">
 ```
 账号:<input type="text" name="username" value="" style="demoStyle">
@@ -86,12 +86,12 @@ tags:
 ## html:password
 >JSP   
 
-```
+```html
 <html:password property="password" style="demoStyle"></html:password>
 ```
 >html   
 
-```
+```html
 <input type="password" name="password" value="" style="demoStyle">
 ```
 
@@ -106,12 +106,12 @@ tags:
 ## html:textarea
 >JSP
 
-```
+```html
 <html:textarea property="about" cols="93" rows="2" style="demoStyle"></html:textarea>
 ```
 >html   
 
-```
+```html
 <textarea name="about" cols="93" rows="2" style="demoStyle"></textarea>
 ```
 详细信息: <textarea name="about" cols="93" rows="2" style="demoStyle"></textarea>
@@ -126,13 +126,13 @@ tags:
 
 >JSP
 
-```
+```html
 <html:submit property="submit" value="提交"/>
 ```
 
 >html   
 
-```
+```html
 <input type="submit" name="submit" value="提交">
 ```
 <input type="submit" name="submit" value="提交">
@@ -147,13 +147,13 @@ tags:
 
 >JSP
 
-```
+```html
 <html:reset property="reset" value="复位"/>
 ```
 
 >html
 
-```
+```html
 <input type="reset" name="reset" value="复位">
 ```
 
@@ -169,7 +169,7 @@ tags:
 
 >JSP  
 
-```
+```html
 <html:checkbox property="checkbox1"/>语文
 <html:checkbox property="checkbox2"/>数学
 <html:checkbox property="checkbox3"/>英语
@@ -177,7 +177,7 @@ tags:
 
 >html
 
-```
+```html
 <input type="checkbox" name="checkbox1" value="on">语文
 <input type="checkbox" name="checkbox2" value="on">数学
 <input type="checkbox" name="checkbox3" value="on">英语
@@ -197,7 +197,7 @@ tags:
 
 >JSP
 
-```
+```html
 <html:multibox property="multiboxs" value="1"/>语文
 <html:multibox property="multiboxs" value="2"/>数学
 <html:multibox property="multiboxs" value="3"/>英语
@@ -205,7 +205,7 @@ tags:
 
 >html
 
-```
+```html
 <input type="checkbox" name="multiboxs" value="1">语文
 <input type="checkbox" name="multiboxs" value="2">数学
 <input type="checkbox" name="multiboxs" value="3">英语
@@ -229,7 +229,7 @@ tags:
 
 >JSP
 
-```
+```html
 <html:radio property="radios" value="1"/>语文
 <html:radio property="radios" value="2"/>数学
 <html:radio property="radios" value="3"/>英语
@@ -237,7 +237,7 @@ tags:
 
 >html
 
-```
+```html
 <input type="radio" name="radios" value="1">语文
 <input type="radio" name="radios" value="2">数学
 <input type="radio" name="radios" value="3">英语
@@ -257,7 +257,7 @@ tags:
 
 >JSP  
 
-```
+```html
 <html:select property="selectDemo" size="1">
     <html:option value="value1">语文</html:option>
     <html:option value="value2">数学</html:option>
@@ -267,7 +267,7 @@ tags:
 
 >htmp
 
-```
+```html
 <select name="selectDemo" size="1">
     <option value="value1">语文</option>
     <option value="value2">数学</option>
@@ -291,13 +291,13 @@ tags:
 
 >JSP
 
-```
+```html
 <html:file property="filedemo" />
 ```
 
 >html
 
-```
+```html
 <input type="file" name="filedemo" value="">
 ```
 <input type="file" name="filedemo" value="">
