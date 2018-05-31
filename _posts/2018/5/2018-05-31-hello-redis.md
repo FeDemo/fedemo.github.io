@@ -106,7 +106,7 @@ requirepass test
 >windows  
 
 ```
-redis-cli.exe -h 139.224.113.203 -p 6379 -a test
+redis-cli.exe -h 123.123.123.123 -p 6379 -a test
 ```
 >linux   
 
