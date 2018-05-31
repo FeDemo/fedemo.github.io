@@ -62,8 +62,9 @@ layout: default
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
-
-				{{ content }}
+                <div id="content">
+				              {{ content }}
+                </div>
               <!-- add 版权申明 by Fe -->
               <br>
               {% if site.author==page.author %}
@@ -202,7 +203,12 @@ layout: default
 
 
 
-
+<script>
+window.onload = function(){
+    //所有文章内a标签都为新建窗口打开
+    $("#content a").attr("target","_blank");
+}
+</script>
 {% if site.anchorjs %}
 <!-- async load function -->
 <script>
