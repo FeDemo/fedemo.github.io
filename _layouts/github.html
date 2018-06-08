@@ -37,18 +37,18 @@
              aList[i].target='_blank';//定义成打开新窗口
           }
       }
-      {% if site.ba_track_id %}
-          // dynamic User by Hux
-          var _baId = '{{ site.ba_track_id }}';
+      {% if page.ba_track_id %}
+            // dynamic User by Hux
+            var _baId = '{{ site.ba_track_id }}';
 
-          // Originial
-          var _hmt = _hmt || [];
-          (function() {
-            var hm = document.createElement("script");
-            hm.src = "//hm.baidu.com/hm.js?" + _baId;
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-          })();
+            // Originial
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "//hm.baidu.com/hm.js?" + _baId;
+              var s = document.getElementsByTagName("script")[0];
+              s.parentNode.insertBefore(hm, s);
+            })();
       {% endif %}
     </script>
     <!-- Baidu Tongji -->

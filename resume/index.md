@@ -2,6 +2,7 @@
 layout: github
 title: 简历
 avatar: /img/avatar_p11179162.jpg
+ba_track_id: false
 ---
 <br><br><br>
 # 联系方式
