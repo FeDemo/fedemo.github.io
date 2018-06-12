@@ -27,7 +27,7 @@
                 }
         });
 
- 		$("#cb-search-content").oninput(function (e) {
+ 		$("#cb-search-content").bind(function (e) {
             var time2 = new Date().getTime();
             if (e.keyCode == 17) {
                 var gap = time2 - time1;
