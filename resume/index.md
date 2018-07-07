@@ -7,7 +7,7 @@ ba_track_id: false
 <br><br><br>
 # 联系方式
 
-- 手机：17750599190
+- 手机：13338533379
 - Email：zyh@fedemo.top
 - QQ号：402354031
 
@@ -22,7 +22,7 @@ ba_track_id: false
  - Github：[https://github.com/fedemo](https://github.com/fedemo)
  - 期望职位：Java程序员
  - 期望薪资：税前月薪k~k，特别喜欢的公司可例外
- - 期望城市：杭州
+ - 期望城市：**
 
 ---
 
@@ -46,7 +46,7 @@ ba_track_id: false
 
 >主要负责
 
-1. 微信公众号移动端的开发,前端使用easyui.mobile以及部分开源js插件完成,后端通过调用原PC端接口进行json的数据传输
+1. 微信公众号移动端的开发,前端使用vue.js,easyui.mobile完成,后端通过调用原PC端接口进行json的数据传输
 2. 门户首页文章使用redis缓存文章信息,提高首页浏览速度,降低数据库压力;后台的文章管理使用UEditor富文本编辑器供客户管理文章
 3. 企业平台中维保单位的开发,以合同的形势将电梯设备的管理权限分出一部分给维保单位,供其进行设备的管理、保养、备案以及维修等操作
 4. 调用短信接口完成短信下发以及短信验证码登录功能,调用电子发票接口完成开票功能
@@ -77,8 +77,8 @@ ba_track_id: false
 - 熟悉WEB应用研发, 熟练掌握JSP/Servlet,JDBC,JavaBeans
 - 熟练掌握Struts2/SpringMvc、Hibernate/Mybatis、Spring、springboot等开源框架技术，并能够用SSH/SSM进行项目研发
 - 熟练运用标准SQL语句,熟悉MySQL以及Oracle数据库.了解Redis的常用API
-- 熟悉Ajax,Jquery等技术, 熟悉Easyui、Bootstrap等前端框架
-- 了解Tomcat服务器配置,maven,Svn/Git等版本管理工具,linux常用命令
+- 熟悉Ajax,Jquery等技术, 熟悉Easyui、Bootstrap等前端框架,在项目中使用过vue.js
+- 了解maven,Tomcat服务器配置,Svn/Git等版本管理工具,linux常用命令
 - 了解Nginx、Mycat、Solr、Redis分片、FastDFS等相关中间件技术
 
 
