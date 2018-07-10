@@ -20,7 +20,7 @@ ba_track_id: false
  - 工作年限：2年
  - 技术博客：[https://fedemo.top](https://fedemo.top)
  - Github：[https://github.com/fedemo](https://github.com/fedemo)
- - download: [https://fedemo.top/resume/download.pdf](https://fedemo.top/resume/download.pdf)
+ - pdf下载: [https://fedemo.top/resume/download.pdf](https://fedemo.top/resume/download.pdf)
  - 期望职位：Java程序员
  - 期望薪资：税前月薪8k~15k，特别喜欢的公司可例外
  - 期望城市：杭州
