@@ -2,15 +2,14 @@
 layout: github
 title: 简历
 avatar: /img/avatar_p11179162.jpg
-pdf: https://fedemo.top/resume/download.pdf
+//pdf: https://fedemo.top/resume/download.pdf
 ba_track_id: false
 ---
 <br><br><br>
 # 联系方式
 
 - 手机：13338533379
-- Email：zyh@fedemo.top
-- QQ号：402354031
+- Email：402354031@qq.com
 
 ---
 
@@ -18,17 +17,15 @@ ba_track_id: false
 
  - 郑有瀚/男/1993
  - 本科/华侨大学厦门工学院
- - 工作年限：2年
+ - 工作年限：3年
  - 技术博客：[https://fedemo.top](https://fedemo.top)
- - Github：[https://github.com/fedemo](https://github.com/fedemo)
  - 期望职位：Java程序员
- - 期望薪资：税前月薪8k~15k
 
 ---
 
 # 工作经历  
 
-## 福州开发区创达电子有限公司 （ 2017年10月 ~ 2018年6月 ）
+## 福州开发区创达电子有限公司 （ 2017年10月 ~ 2018年12月 ）
 
 ### 丽水市特种设备平台
 
@@ -43,7 +40,7 @@ ba_track_id: false
 
 >主要负责
 
-1. 带领一名同事两人完成了微信公众号移动端系统的开发,前端使用 **vue.js** 整合 **easyui.mobile** 完成,通过调用后端接口进行json格式的数据传输完成
+1. 移动端系统的开发,前端使用 **vue.js** 整合 **easyui.mobile** 完成,通过调用后端接口进行json格式的数据传输完成
 2. 门户网站的开发,通过使用 **redis** 缓存文章信息,提高首页浏览速度,降低数据库压力;后台的文章管理使用 **UEditor** 富文本编辑器供客户管理文章
 3. 企业平台中维保单位的开发,以合同的形势将电梯设备的管理权限分出一部分给维保单位,供其进行设备的管理、保养、备案以及维修等操作
 4. 调用诺诺发票提供的api接口完成开具电子发票功能
@@ -78,7 +75,7 @@ ba_track_id: false
 - 熟练运用标准SQL语句,熟悉MySQL以及Oracle数据库.了解Redis的常用API
 - 熟悉Ajax,Jquery等技术, 熟悉Easyui、Bootstrap等前端框架,在项目中使用过vue.js
 - 了解maven,Tomcat服务器配置,Svn/Git等版本管理工具,linux常用命令
-- 了解Nginx、Mycat、Solr、Redis分片、FastDFS等相关中间件技术
+- 了解Nginx、Mycat、Solr、FastDFS等相关中间件技术
 
 
 ---
